@@ -274,9 +274,9 @@
 	// https://twitter.com/mattsince87
 
 	function scrollNav() {
-	  $('a').click(function(){  
+	  $('a').click(function(){
 	    //Toggle Class
-	    $(".active").removeClass("active");      
+	    $(".active").removeClass("active");
 	    $(this).closest('li').addClass("active");
 	    var theClass = $(this).attr("class");
 	    $('.'+theClass).parent('li').addClass('active');
