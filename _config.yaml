@@ -1,4 +1,3 @@
 gems:
   - jekyll-seo-tag
-plugins:
   - jekyll-redirect-from
